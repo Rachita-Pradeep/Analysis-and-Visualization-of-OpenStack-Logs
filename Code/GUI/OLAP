@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>OPENSTACK LOG ANALYSIS AND VISUALIZATION</title>
+    <!-- BOOTSTRAP CORE STYLE CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+     <!-- FONTAWESOME STYLE CSS -->
+     <link href="assets/css/font-awesome.css" rel="stylesheet" />
+    <!-- CUSTOM STYLE CSS -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+</head>
+<body > 
+   
+        <div class="navbar navbar-inverse navbar-fixed-top " >
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#" ><strong style=""></strong><i class="fa fa-globe"></i> <small >OPENSTACK LOG ANALYSIS AND VISUALIZATION</small></a>
+            </div>
+            <div class="navbar-collapse collapse move-me">
+                <ul class="nav navbar-nav navbar-right set-links">
+                    <li><a href="index.html" class="active-menu-item">HOME</a></li>
+                     <li><a href="about.html">ABOUT</a></li>
+                     <li><a href="analysisGraphs.html">ANALYSIS</a></li>
+                     <li><a href="http://10.10.1.97:5601">ELK</a></li>
+                    <li><a href="http://10.10.1.97:8000">SPLUNK</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+    <!--MENU SECTION END-->
+    <section class="headline-sec">
+        <div class="overlay ">
+            <h3 >ABOUT PROJECT <i class="fa fa-angle-double-right "></i></h3>
+
+        </div>
+    </section>
+    <!--HOME SECTION END-->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8" >
+                        <h3><strong>Overview Of Our Project</strong></h3>
+                        <p>
+                          An OpenStack setup usually consists of a very
+                          large pool of compute, storage and network logs. 
+                          One of the biggest challenges for OpenStack 
+                          administrators is to <strong>monitor stacks and analyze 
+                          logs for anomalies. There is a need for a tool 
+                          to analyze the logs and provide a clean visualization.</strong> 
+                          In this project, we propose to analyze various logs 
+                          produced by different components of Openstack and 
+                          also provide a visualization for an easier understanding.
+                            </p> 
+                        <p>
+                          The project is about the Analysis and Visualization of 
+                          Openstack logs,<strong> with a view to aid Software developers 
+                          in debugging of Systems </strong> that use Openstack infrastructure 
+                          used in various applications of cloud computing such as 
+                          email and SMAC.
+                            </p> 
+                </div>
+                <div class="col-md-4 p-top-row " >
+                    <img src="assets/img/about1.jpg" class="img-responsive img-rounded" alt="" />
+                </div>
+            </div>
+             <div class="row p-top-row">
+                 <div class="col-md-4 p-top-row " >
+                     <img src="assets/img/about2.jpg" class="img-responsive img-rounded" alt="" />
+                </div>
+                <div class="col-md-8" >
+                        <h3><strong>Future Scope</strong></h3>
+                        <p>
+                          The future scope of this project is to
+                          analyze logs that are generated when 
+                          Openstack is being used for application 
+                          basis as well and not just to provide 
+                          Infrastructure as a service. We can also 
+                          do further research on ELK Stack and apply 
+                          Machine learning Algorithms for analysis 
+                          and try for a better accuracy.
+                            </p> 
+                </div>
+                
+            </div>
+             <div class="row p-top-row">
+                 
+                <div class="col-md-8" >
+                        <h3><strong>Use of Our Product</strong></h3>
+                        <p>
+                        An OpenStack setup usually consists of a very large
+                        pool of compute, storage and network logs.One of 
+                        the biggest challenges for OpenStack administrators
+                        is to monitor stacks and analyze logs for anomalies. 
+                        There is a need for a tool to analyze the logs and 
+                        provide a clean visualization. In this project, we 
+                        propose to analyze various logs produced by different 
+                        components of Openstack and also provide a visualization 
+                        for an easier understanding.
+                        </p> 
+                        <p>
+                         The project is about the Analysis and Visualization of 
+                         Openstack logs, with a view to aid Software developers 
+                         in debugging of Systems that use Openstack infrastructure 
+                         used in various applications of cloud computing such as 
+                         email and SMAC (Social Mobile Analytics and cloud (computing). 
+                         The project also aims aid new users of the Openstack 
+                         infrastructure in understanding the usage methods involved 
+                         without having to delve deep into an understanding of the
+                         infrastructure. The software product that is a deliverable
+                         is an Openstack log visualizer.
+                        </p> 
+                </div>
+                <div class="col-md-4 p-top-row " >
+                    <img src="assets/img/about3.jpg" class="img-responsive img-rounded" alt="" />
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="footer-sec" >
+        <div class="container">
+            <div class="row">
+<div class="col-md-4">
+   <h4>ABOUT COMPANY</h4>
+    <p style="padding-right:50px;">
+        An OpenStack setup usually consists of a very large pool of compute, 
+        storage and network logs. In this project, we propose to analyze various 
+        logs produced by different components of Openstack and also provide a 
+        visualization for an easier understanding. <a href="about.html">more..</a>
+    </p>
+</div>
+                <div class="col-md-4">
+       <h4>PHYSICAL LOCATION </h4>
+                    <h5>PESIT, CCBD</h5>
+                    <br />
+                    <!--<h5><strong>Email:</strong> info@domain.com</h5>
+                      <h5><strong>Call:</strong> +1-908-78-55-5555</h5> -->
+                   
+</div>
+                <div class="col-md-4">
+
+</div>
+               
+            </div>
+               
+        </div>
+    </section>
+     <!--FOOTER SECTION END-->
+    <div class="copy-txt">
+         <div class="container">
+        <div class="row">
+<div class="col-md-12 set-foot" >
+    &copy 2016 your domain | All rights reserved | Design by : Meghana Nisha Rachita
+</div>
+            </div>
+                   </div>
+    </div>
+     <!-- COPY TEXT SECTION END-->
+    <!-- JAVASCRIPT FILES PLACED AT THE BOTTOM TO REDUCE THE LOADING TIME  -->
+    <!-- CORE JQUERY  -->
+    <script src="assets/js/jquery-1.11.1.js"></script>
+    <!-- BOOTSTRAP SCRIPTS  -->
+    <script src="assets/js/bootstrap.js"></script>
+    <!-- CUSTOM SCRIPTS  -->
+    <script src="assets/js/custom.js"></script>
+</body>
+</html>

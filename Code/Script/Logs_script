@@ -1,0 +1,23 @@
+#!/bin/bash
+
+python3 /home/ubuntu/Logs/Logs/logs_script.py
+chown ubuntu:ubuntu /home/ubuntu/Logs/Logs/logs_1.log
+ssh ubuntu@10.10.1.98 sudo ./Logs/script.sh
+#ssh ubuntu@10.10.1.99 sudo ./Logs/script.sh
+scp ubuntu@10.10.1.98:logs_2.log ubuntu@10.10.1.97:Logs/Logs/logs_2.log
+#scp ubuntu@10.10.1.99:logs_3.log ubuntu@10.10.1.97:Logs/Logs/logs_3.log
+ssh ubuntu@10.10.1.98 rm logs_2.log
+#ssh ubuntu@10.10.1.99 rm logs_3.log
+python /home/ubuntu/Logs/Logs/combine_logs.py
+rm /home/ubuntu/Logs/Logs/logs_1.log
+rm /home/ubuntu/Logs/Logs/logs_2.log
+rm /home/ubuntu/Logs/Logs/logs_tmp.csv
+python /home/ubuntu/Logs/Logs/Detect1.py /home/ubuntu/Logs/Logs/logs.csv
+python /home/ubuntu/Logs/Logs/statistics.py /home/ubuntu/Logs/Logs/logsCreate.csv /home/ubuntu/Logs/Logs/logs.csv
+#rm /home/ubuntu/Logs/Logs/logs_3.log
+#python3 /home/ubuntu/Logs/Logs/write_splk_csv.py
+#chown ubuntu:ubuntu /home/ubuntu/Logs/Logs/logs_elk.csv
+#service elasticsearch restart
+service logstash restart
+service kibana4 restart
+

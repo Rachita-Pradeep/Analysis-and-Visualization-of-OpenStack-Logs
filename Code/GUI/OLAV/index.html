@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>OPENSTACK LOG ANALYSIS AND VISUALIZATION</title>
+    <!-- BOOTSTRAP CORE STYLE CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+     <!-- FONTAWESOME STYLE CSS -->
+     <link href="assets/css/font-awesome.css" rel="stylesheet" />
+    <!-- CUSTOM STYLE CSS -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+</head>
+<body > 
+   
+        <div class="navbar navbar-inverse navbar-fixed-top " >
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#" ><strong style=""></strong><i class="fa fa-globe"></i> <small >OPENSTACK LOG ANALYSIS AND VISUALIZATION</small></a>
+            </div>
+            <div class="navbar-collapse collapse move-me">
+                <ul class="nav navbar-nav navbar-right set-links">
+                    <li><a href="index.html" class="active-menu-item">HOME</a></li>
+                     <li><a href="about.html">ABOUT</a></li>
+                     <li><a href="analysisGraphs.html">ANALYSIS</a></li>
+                     <li><a href="http://10.10.1.97:5601">ELK</a></li>
+                    <li><a href="http://10.10.1.97:8000">SPLUNK</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+    <!--MENU SECTION END-->
+    <section id="home-sec">
+        <div class="overlay text-center">
+            <h1 >OPENSTACK LOG ANALYSIS AND VISUALIZATION</h1>
+            <hr class="hr-set"/>
+
+            <p>Provides Analysis and a clean Visualization of Openstack Logs </p>
+        </div>
+    </section>
+    <!--HOME SECTION END-->
+  <!-- <section id="search-domain" >
+        <div class="container">
+            <div class="row">
+<div class="col-md-8">
+        <input type="text" class="form-control input-cls"    />
+
+</div>
+                <div class="col-md-4">
+                    <input type="button" class="btn btn-info btn-lg btn-set"  value="SEARCH DOMAIN" />
+                </div>
+            </div>
+        </div>
+    </section> -->
+     <!--SEARCH SECTION END-->
+    <section id="services-sec">
+        <div class="container">
+           
+            <div class="row text-center" >
+<div class="col-md-4">
+    <i class="fa fa-database fa-5x icon-custom-1 color-1"></i>
+    <h3>ANALYSIS WITH VISUALIZATION</h3>
+    <p>
+        The logs are analyzed and classified 
+        according to the activities and error 
+        comparison with a successful launch and 
+        termination of an instance with the 
+        corresponding error. 
+    </p>
+
+</div>
+                <div class="col-md-4">
+                     <i class="fa fa-globe fa-5x icon-custom-1 color-1"></i>
+    <h3>ELK</h3>
+    <p>
+        The ELK stack consists of Elasticsearch,
+        Logstash, and Kibana. It is an open source 
+        tool used for Visulization.
+    </p>
+                </div>
+                <div class="col-md-4">
+                     <i class="fa fa-desktop fa-5x icon-custom-1 color-1"></i>
+    <h3>SPLUNK</h3>
+    <p>
+        It is a long-time industry player in infrastructure
+        data analysis. It has traditionally been 
+        considered a log collector or aggregation tool. 
+        It has matured into a pseudo big data analysis tool. 
+
+    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--SERVICES SECTION END-->
+	 <!--  <section id="clients-sec">
+        <div class="container">
+            <div class="row">
+<div class="col-md-12">
+    <img src="assets/img/clients.png" alt="" class="img-rounded img-responsive" />
+</div>
+
+               
+            </div>
+        </div>
+    </section> -->
+    <!--CLIENTS SECTION END-->
+    <!--<div id="testimonial-sec">
+
+   
+        <div class="container">
+              <div class="row ">
+            <div class="col-md-12">
+                <div id="carousel-example" class="carousel slide" data-ride="carousel">
+
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-example" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example" data-slide-to="1"></li>
+                        <li data-target="#carousel-example" data-slide-to="2"></li>
+                    </ol>
+
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <div class="container center">
+                                <div class="col-md-6 col-md-offset-3 slide-custom">
+                                   
+                                    <h4><i class="fa fa-quote-left"></i> ELK Stack is a combination of Elasticsearch, Logstash and Kibana <i class="fa fa-quote-right"></i></h4>
+                                     <div class="user-img pull-right">
+						<img src="assets/img/elk.png" alt="" class="img-u image-responsive"  />
+					</div>
+                                    <h5 class="pull-right"><strong class="c-black">ELK</strong></h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="container center">
+                                <div class="col-md-6 col-md-offset-3 slide-custom">
+                                    <h4> <i class="fa fa-quote-left"></i> It is a long-time industry player in infrastructure data analysis.<i class="fa fa-quote-right"></i></h4>
+                                         <div class="user-img pull-right">
+						<img src="assets/img/user2.png" alt="" class="img-u image-responsive"  />
+					</div>
+                                    <h5 class="pull-right"><strong class="c-black">SPLUNK</strong></h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="container center">
+                                <div class="col-md-6 col-md-offset-3 slide-custom">
+                                    <h4><i class="fa fa-quote-left"></i>Displaying charts for the visualizations.<i class="fa fa-quote-right"></i></h4>
+                                        <div class="user-img pull-right">
+						<img src="assets/img/one.png" alt="" class="img-u image-responsive"  />
+					</div>
+                                    <h5 class="pull-right"><strong class="c-black">ANALYSIS OUTPUT</strong></h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+         </div> -->
+    <!--TESTIMONIAL SECTION END-->
+    <section id="features-sec"  >
+        <div class="container">
+           
+            <div class="row text-center" >
+<div class="col-md-3">
+    <i class="fa fa-comments-o fa-3x icon-custom-2 color-2"></i>
+    <h4>Collects Logs Real TIme</h4>
+    <p>
+        A script runs in the background where
+        the logs are collected every 15 minutes
+
+    </p>
+
+</div>
+                <div class="col-md-3">
+                     <i class="fa fa-rocket fa-3x icon-custom-2 color-2"></i>
+    <h4>Error Comparison </h4>
+    <p>
+        The logs are analyzed and the error 
+        comparison is displayed through graphs.
+        
+    </p>
+                </div>
+                <div class="col-md-3">
+                     <i class="fa fa-bars fa-3x icon-custom-2 color-2"></i>
+    <h4>Clean Visualization</h4>
+    <p>
+        Openstack logs are complex and
+        difficult to understand. Visualization
+        helps in making it easier to understand. 
+    </p>
+                </div>
+                <div class="col-md-3">
+                     <i class="fa fa-table fa-3x icon-custom-2 color-2"></i>
+    <h4>Customizable</h4>
+    <p>
+        For the openstack logs that are
+        generated freshly as well as the 
+        previous logs
+    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+     <!--FEATURES SECTION END-->
+   <!-- <section id="clients-sec">
+        <div class="container">
+            <div class="row">
+<div class="col-md-12">
+    <img src="assets/img/clients.png" alt="" class="img-rounded img-responsive" />
+</div>
+
+               
+            </div>
+        </div>
+    </section> -->
+    <!--CLIENTS SECTION END-->
+    <section id="footer-sec" >
+        <div class="container">
+            <div class="row">
+<div class="col-md-4">
+   <h4>ABOUT PROJECT</h4>
+    <p style="padding-right:50px;">
+        An OpenStack setup usually consists of a very large pool of compute, 
+        storage and network logs. In this project, we propose to analyze various 
+        logs produced by different components of Openstack and also provide a 
+        visualization for an easier understanding. <a href="about.html">more..</a>
+    </p>
+</div>
+                <div class="col-md-4">
+       <h4>PHYSICAL LOCATION </h4>
+                    <h5>PESIT, CCBD</h5>
+                    <br />
+                    <!--<h5><strong>Email:</strong> info@domain.com</h5>
+                      <h5><strong>Call:</strong> +1-908-78-55-5555</h5> -->
+                   
+</div>
+                <div class="col-md-4">
+
+</div>
+               
+            </div>
+               
+        </div>
+    </section>
+     <!--FOOTER SECTION END-->
+    <div class="copy-txt">
+         <div class="container">
+        <div class="row">
+<div class="col-md-12 set-foot" >
+    &copy 2016 your domain | All rights reserved | Design by : Meghana Nisha Rachita
+</div>
+            </div>
+                   </div>
+    </div>
+     <!-- COPY TEXT SECTION END-->
+    <!-- JAVASCRIPT FILES PLACED AT THE BOTTOM TO REDUCE THE LOADING TIME  -->
+    <!-- CORE JQUERY  -->
+    <script src="assets/js/jquery-1.11.1.js"></script>
+    <!-- BOOTSTRAP SCRIPTS  -->
+    <script src="assets/js/bootstrap.js"></script>
+    <!-- CUSTOM SCRIPTS  -->
+    <script src="assets/js/custom.js"></script>
+</body>
+</html>

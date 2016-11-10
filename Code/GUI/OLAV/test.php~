@@ -1,0 +1,6 @@
+<?php
+echo "before";
+exec('python graph1.py')
+echo "after";
+?>
+
